@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane maxHeight="400" maxWidth="600" minHeight="400" minWidth="600" prefHeight="400.0" prefWidth="600.0"
+	  xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	  fx:controller="com.tolk.asim.fxgui.controller.IntroSceneController">
+	<children>
+		<Label fx:id="appNameLabel" layoutX="14.0" layoutY="14.0" prefHeight="74.0" prefWidth="570.0" text="asim">
+			<font>
+				<Font name="SansSerif Regular" size="64.0"/>
+			</font>
+		</Label>
+		<Label fx:id="appDescriptionLabel" layoutX="14.0" layoutY="88.0" prefHeight="16.0" prefWidth="570.0" text="Artificial Life Simulation">
+			<font>
+				<Font name="SansSerif Regular" size="14.0"/>
+			</font>
+		</Label>
+		<Label fx:id="appAuthorLabel" layoutX="14.0" layoutY="104.0" prefHeight="16.0" prefWidth="570.0" text="By James McHugh">
+			<font>
+				<Font name="SansSerif Regular" size="14.0"/>
+			</font>
+		</Label>
+	</children>
+</Pane>
